@@ -17,7 +17,7 @@ const Hero = () => {
     {
       backgroundImage: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       title: 'Tecnologias exclusivas',
-      description: 'Nossa comunidade de aprendizado é um lugar onde os alunos podem crescer, aprender e se desenvolver.',
+      description: 'Nossa comunidade é um lugar onde os alunos podem crescer, aprender e se desenvolver.',
     },
   ];
 
@@ -61,7 +61,7 @@ const Hero = () => {
 
       {/* Botão para o slide anterior */}
       <div
-        className="absolute top-[61%] left-9 transform -translate-y-1/2 cursor-pointer z-10 transition duration-300 hover:-translate-x-2"
+        className="absolute top-[59%] left-9 transform -translate-y-1/2 cursor-pointer z-10 transition duration-300 hover:-translate-x-2"
         onClick={handlePrevSlide}
       >
         <ArrowLeft className="w-8 h-8 text-white" />
@@ -69,7 +69,7 @@ const Hero = () => {
 
       {/* Botão para o próximo slide */}
       <div
-        className="absolute top-[61%] right-9 transform -translate-y-1/2 cursor-pointer z-10 transition duration-300 hover:translate-x-2"
+        className="absolute top-[59%] right-9 transform -translate-y-1/2 cursor-pointer z-10 transition duration-300 hover:translate-x-2"
         onClick={handleNextSlide}
       >
         <ArrowRight className="w-8 h-8 text-white" />
