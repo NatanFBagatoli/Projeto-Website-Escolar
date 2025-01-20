@@ -81,9 +81,16 @@ const Contact = () => {
                       className="h-32 bg-white/5 border-gray-700 text-black placeholder:text-gray-500 focus:border-orange-400 focus:ring-orange-400"
                     />
                   </div>
-                  <Button className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white font-semibold py-3 rounded-lg transition-all duration-300 transform hover:scale-[1.02]" onClick={() => window.open('https://wa.me/554796281694', '_blank')}>
-                    Enviar Mensagem
-                  </Button>
+                  <Button
+  className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white font-semibold py-3 rounded-lg transition-all duration-300 transform hover:scale-[1.02]"
+  onClick={(event) => {
+    event.preventDefault(); // Impede o comportamento padrão do botão
+    window.open('https://wa.me/554796281694', '_blank'); // Abre o WhatsApp em uma nova aba
+  }}
+>
+  Enviar Mensagem
+</Button>
+
                 </form>
               </motion.div>
 

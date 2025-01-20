@@ -11,7 +11,7 @@ const Hero = () => {
     },
     {
       backgroundImage: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Destaques do Pré-Vestibular',
+      title: 'Pré-Vestibular',
       description: 'Nossa abordagem inovadora à educação visa preparar os alunos para os desafios do futuro.',
     },
     {
@@ -65,7 +65,7 @@ const Hero = () => {
 
       {/* Botão para o slide anterior */}
       <div
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 cursor-pointer z-10 transition duration-300 hover:-translate-x-2"
+        className="absolute top-1/2 left-9 transform -translate-y-1/2 cursor-pointer z-10 transition duration-300 hover:-translate-x-2"
         onClick={handlePrevSlide}
       >
         <ArrowLeft className="w-8 h-8 text-white" />
@@ -73,7 +73,7 @@ const Hero = () => {
 
       {/* Botão para o próximo slide */}
       <div  
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 cursor-pointer z-10 transition duration-300 hover:translate-x-2"
+        className="absolute top-1/2 right-9 transform -translate-y-1/2 cursor-pointer z-10 transition duration-300 hover:translate-x-2"
         onClick={handleNextSlide}
       >
         <ArrowRight className="w-8 h-8 text-white" />
