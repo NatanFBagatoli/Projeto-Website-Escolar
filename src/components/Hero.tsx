@@ -6,7 +6,7 @@ const Hero = () => {
   const slides = [
     {
       backgroundImage: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Novo Ensino Médio.',
+      title: 'Novo Ensino Médio',
       description: 'Descubra as oportunidades do Novo Ensino Médio e prepare-se para o futuro!',
     },
     {
