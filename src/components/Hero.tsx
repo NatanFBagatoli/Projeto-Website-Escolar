@@ -37,22 +37,18 @@ const Hero = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        minHeight: '100vh', // Garante altura uniforme para os slides
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
+        minHeight: '100vh',
       }}
     >
-      {/* Conteúdo centralizado */}
-      <div className="max-w-4xl mx-auto text-center relative z-10">
+      {/* Conteúdo fixo centralizado */}
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-center z-10">
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
           {slides[slide].title}
         </h1>
-        <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
+        <p className="text-lg md:text-xl mb-8 max-w-2xl">
           {slides[slide].description}
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-col sm:flex-row gap-4">
           <button
             className="bg-orange-600 text-white px-6 py-3 rounded-lg hover:bg-orange-500 transition-colors flex items-center justify-center gap-2"
             onClick={() => window.open('https://wa.me/554796281694', '_blank')}
@@ -65,15 +61,15 @@ const Hero = () => {
 
       {/* Botão para o slide anterior */}
       <div
-        className="absolute top-1/2 left-9 transform -translate-y-1/2 cursor-pointer z-10 transition duration-300 hover:-translate-x-2"
+        className="absolute top-[61%] left-9 transform -translate-y-1/2 cursor-pointer z-10 transition duration-300 hover:-translate-x-2"
         onClick={handlePrevSlide}
       >
         <ArrowLeft className="w-8 h-8 text-white" />
       </div>
 
       {/* Botão para o próximo slide */}
-      <div  
-        className="absolute top-1/2 right-9 transform -translate-y-1/2 cursor-pointer z-10 transition duration-300 hover:translate-x-2"
+      <div
+        className="absolute top-[61%] right-9 transform -translate-y-1/2 cursor-pointer z-10 transition duration-300 hover:translate-x-2"
         onClick={handleNextSlide}
       >
         <ArrowRight className="w-8 h-8 text-white" />
