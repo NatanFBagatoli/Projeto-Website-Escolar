@@ -24,7 +24,8 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 ![image2](https://github.com/user-attachments/assets/acd21f04-b6cd-45ee-ac98-3e97abb6cddc)
 ### 📊 Página de Contatos
 ![image3](https://github.com/user-attachments/assets/34d66a8b-2d8b-45a1-9a8f-5890b1bc4d54)
-
+### 📱 Link para o site
+https://projeto-website-escolar-i1jo.vercel.app/
 ---
 
 ## 🔧 Instalação e Uso
