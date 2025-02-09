@@ -19,11 +19,14 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 ## 📷 Demonstração
 
 ### 🏫 Página Inicial
-![image1](https://github.com/user-attachments/assets/216c6934-76d8-40cb-87c5-45e87b8a2925)
+![image1](https://github.com/user-attachments/assets/c5f66f24-4eb1-4a59-b5b4-048f135d601e)
+
 ### 📚 Página de Resultados
-![image2](https://github.com/user-attachments/assets/acd21f04-b6cd-45ee-ac98-3e97abb6cddc)
+![image2](https://github.com/user-attachments/assets/01ff2075-4629-4cd9-9d1c-f62a28aabd51)
+
 ### 📊 Página de Contatos
-![image3](https://github.com/user-attachments/assets/34d66a8b-2d8b-45a1-9a8f-5890b1bc4d54)
+![image3](https://github.com/user-attachments/assets/b8662e0a-35e9-4a73-8a7a-9c6d316b5bc6)
+
 ### 📱 Link para o site
 https://projeto-website-escolar-i1jo.vercel.app/
 ---
