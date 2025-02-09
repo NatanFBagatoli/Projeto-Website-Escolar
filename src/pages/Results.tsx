@@ -17,20 +17,7 @@ const universityData = [
   { name: 'IFSC', value: 55, color: '#96CEB4' },
 ];
 
-const performanceData = [
-  { month: 'Jan', score: 82 },
-  { month: 'Fev', score: 85 },
-  { month: 'Mar', score: 87 },
-  { month: 'Abr', score: 84 },
-  { month: 'Mai', score: 89 },
-  { month: 'Jun', score: 91 },
-  { month: 'Jul', score: 88 },
-  { month: 'Ago', score: 90 },
-  { month: 'Set', score: 92 },
-  { month: 'Out', score: 93 },
-  { month: 'Nov', score: 95 },
-  { month: 'Dez', score: 94 },
-];
+
 
 const Results = () => {
   return (

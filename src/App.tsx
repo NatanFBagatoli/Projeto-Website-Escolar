@@ -10,7 +10,7 @@ import HighSchool from "./pages/HighSchool";
 import PreUniversity from "./pages/PreUniversity";
 import Results from "./pages/Results";
 import Events from "./pages/Events";
-import AccessTeam from "./pages/AccessTeam";
+import YourTeam from "./pages/YourTeam";
 import CultureMaker from "./pages/CultureMaker";
 import Labs from "./pages/Labs";
 import Contact from "./pages/Contact";
@@ -30,7 +30,7 @@ const App = () => (
           <Route path="/pre-university" element={<PreUniversity />} />
           <Route path="/results" element={<Results />} />
           <Route path="/events" element={<Events />} />
-          <Route path="/access-team" element={<AccessTeam />} />
+          <Route path="/your-team" element={<YourTeam />} />
           <Route path="/culture-maker" element={<CultureMaker />} />
           <Route path="/labs" element={<Labs />} />
           <Route path="/contact" element={<Contact />} />

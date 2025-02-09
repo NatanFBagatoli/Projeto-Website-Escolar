@@ -43,9 +43,9 @@ const team = [
   }
 ];
 
-const AccessTeam = () => {
+const YourTeam = () => {
   const [selectedMember, setSelectedMember] = useState(null);
-  const [activeFilter, setActiveFilter] = useState('all');
+ 
 
   const stats = [
     { icon: <Users className="w-6 h-6" />, value: "20+", label: "Professores" },
@@ -212,4 +212,4 @@ const AccessTeam = () => {
   );
 };
 
-export default AccessTeam;
+export default YourTeam;

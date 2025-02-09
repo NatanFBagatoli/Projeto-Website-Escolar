@@ -85,7 +85,7 @@ const Contact = () => {
   className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white font-semibold py-3 rounded-lg transition-all duration-300 transform hover:scale-[1.02]"
   onClick={(event) => {
     event.preventDefault(); // Impede o comportamento padrão do botão
-    window.open('https://wa.me/554796281694', '_blank'); // Abre o WhatsApp em uma nova aba
+    window.open('https://wa.me/99999999999', '_blank'); // Abre o WhatsApp em uma nova aba
   }}
 >
   Enviar Mensagem
@@ -113,7 +113,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-black mb-1">Endereço</h3>
-                      <p>R. Paraguay, 90 - Ponta Aguda, Blumenau - SC, 89050-020</p>
+                      <p>Nome Da Rua, 99 - Bairro, Cidade - Estado, 99999-999</p>
                     </div>
                   </motion.div>
 
@@ -127,7 +127,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-black mb-1">Telefone</h3>
-                      <p>+55 47 9628-1694</p>
+                      <p>+99 99 9999-9999</p>
                     </div>
                   </motion.div>
 
@@ -141,7 +141,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-black mb-1">Email</h3>
-                      <p>atendimento@acessoeducacao.com.br</p>
+                      <p>NomeDoEmail@gmail.com.br</p>
                     </div>
                   </motion.div>
 
@@ -150,7 +150,7 @@ const Contact = () => {
                     <div className="flex space-x-6">
                      
                       <motion.a
-                        href="https://www.instagram.com/acessoeducacao/"
+                        href="https://www.instagram.com//"
                         target="_blank"
                         rel="noopener noreferrer"
                         whileHover={{ y: -3 }}
@@ -159,7 +159,7 @@ const Contact = () => {
                         <Instagram className="w-6 h-6" />
                       </motion.a>
                       <motion.a
-                        href="https://www.facebook.com/acessoeducacao/"
+                        href="https://www.facebook.com//"
                         target="_blank"
                         rel="noopener noreferrer"
                         whileHover={{ y: -3 }}
@@ -174,8 +174,8 @@ const Contact = () => {
                 {/* Map Preview */}
                 <div className="mt-8 rounded-lg overflow-hidden">
                   <iframe
-                    title="Localização Acesso Educação"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.0374343551584!2d-49.0659493!3d-26.9046583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df18c3b4a71d65%3A0x2c2c97f023a47f5!2sR.%20Paraguay%2C%2090%20-%20Ponta%20Aguda%2C%20Blumenau%20-%20SC%2C%2089050-020!5e0!3m2!1spt-BR!2sbr!4v1709913046098!5m2!1spt-BR!2sbr"
+                    title="Localização"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.6204427838306!2d-49.08724742378035!3d-26.915538493323236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df192905855555%3A0x9178dae6c7183436!2sVila%20Germ%C3%A2nica!5e0!3m2!1spt-BR!2sbr!4v1739124540876!5m2!1spt-BR!2sbr"
                     width="100%"
                     height="200"
                     style={{ border: 0 }}
